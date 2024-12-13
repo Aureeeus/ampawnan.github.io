@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Gideon+Roman);
+
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+#navBar{
+    width: 100%;
+    height: 90px;
+    background-color: #FAF8F4;
+    padding:0px;
+    border: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    letter-spacing: 1.5px;
+    padding-right: 70px;
+    padding-left: 50px;
+    font-size: 40px;
+    margin-right: 350px;
+    font-weight: 800;
+    font-family: "Archivo", sans-serif;
+}
+
+#cartDiv{
+    padding-right: 45px;
+}
+
+#optionsDiv ul{
+    margin-right: 70px;
+    display: flex;
+}
+
+.navOptions {
+    border-radius: 30px;
+    color: #5a6c57;
+    font-size: 17px;
+    font-weight: bold;
+    height: 80px;
+    width: 120px;
+    display: inline-flex;
+    margin: 0px 3px;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: color 0.2s, background-color 0.25s ease-in-out;
+}
+
+.navOptions:hover{
+    outline: none;
+    color: white;
+    background-color: #5a6c57;
+}
+
+.empha{
+    color: #859f3d;
+}
+
+button, a, .prodPrice h3{
+    font-family: "Exo 2", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; width: 100vw;
+    background-color: #FAF8F4;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 80vh; width: 100vw;
+}
+
+main .container {
+    overflow: hidden;
+    border-radius: 50px;
+    height: inherit; width: 90vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title span{
+    box-sizing: border-box;
+    font-family: "Gideon Roman";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; width: 90vw;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.person-container {
+    box-sizing: border-box;
+    height: 70vh; width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.person-container .person {
+    box-sizing: border-box;
+    height: inherit; width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.person-container .person:last-child {
+    border-right: none
+}
+
+.person ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    list-style: none;
+    border-top: 2px solid grey;
+    padding: 10px;
+    height: 45vh; width: 152px;
+    justify-content: space-between;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person ul li {
+    font-family: "Archivo", sans-serif;
+    color: white;
+    font-size: 13px;
+}
+
+.person ul div:last-child i {
+    font-size: 25px;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.person ul div:last-child i:hover {
+    font-size: 28px;
+}
+
+.person .description {
+    box-sizing: border-box;
+    width: 132px; height: 234px;
+}
+
+.description li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos i {
+    padding: 5px;
+    color: black;
+    font-size: 24px;
+}
+
+.perTitle{
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 3px;
+}

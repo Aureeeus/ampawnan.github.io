@@ -1,0 +1,553 @@
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#mainDiv{
+    background-image: url("images/coverIMG.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}
+
+#navBar{
+    width: 100%;
+    height: 90px;
+    background-color: #FAF8F4;
+    padding:0px;
+    border: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    letter-spacing: 1.5px;
+    padding-right: 70px;
+    padding-left: 50px;
+    font-size: 40px;
+    margin-right: 350px;
+    font-weight: 800;
+    font-family: "Archivo", sans-serif;
+}
+
+#cartDiv{
+    padding-right: 45px;
+}
+
+#optionsDiv ul{
+    margin-right: 70px;
+    display: flex;
+}
+
+.navOptions {
+    border-radius: 30px;
+    color: #5a6c57;
+    font-size: 17px;
+    font-weight: bold;
+    height: 80px;
+    width: 120px;
+    display: inline-flex;
+    margin: 0px 3px;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: color 0.2s, background-color 0.25s ease-in-out;
+}
+
+.navOptions:hover{
+    outline: none;
+    color: white;
+    background-color: #5a6c57;
+}
+
+#optionsDiv{
+    vertical-align: middle;
+    align-items: center;
+}
+
+#mainText{
+    padding-top: 200px;
+    height:844.08px;
+    width: 450px;
+    text-align: left;
+    margin-left: 1100px;
+}
+
+#mainText h1{
+    font-family: "Archivo", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#mainText p{
+    font-family: "Archivo", sans-serif;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+#shopButton{
+    font-size: 22px;
+    font-weight: bold;
+    color: #5a6c57;
+    background-color: transparent;
+    padding: 20px 65px;
+    border-radius: 40px;
+    border: 3px solid #5a6c57;
+    -webkit-transition: background-color 0.25s ease-in-out;
+}
+
+#shopButton:hover{
+    border: 3px solid #5a6c57;
+    color: white;
+    background-color: #5a6c57;
+}
+
+#shopButt {
+    margin: 30px;
+    margin-left: 5%;
+}
+
+.empha{
+    color: #859f3d;
+}
+
+.empha2{
+    color: #E4F1AC;
+}
+
+a{
+    font-family: "Exo 2", sans-serif;
+}
+
+#categs{
+    z-index: 9999;
+    width: 100%;
+    position: sticky;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #859f3d;
+    top: 0px;
+}
+
+#categs ul {
+    display: flex;
+    margin-left: 10px;
+    width: 1050px;
+    justify-content: space-evenly;
+}
+
+
+.categButs{
+    -webkit-transition: background-color 0.2s;
+}
+
+#cartBut{
+    margin-right: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.846);
+    background-color: transparent;
+    width: 175px;
+    height: 30px;
+    border-radius: 25px;
+    -webkit-transition: transform 0.2s ease-in-out;
+}
+
+#cartBut span, #cartBut i{
+    color: rgba(255, 255, 255, 0.846);
+}
+
+#cartBut span{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.categButs {
+    color: rgba(255, 255, 255, 0.846);
+    background-color: transparent;
+    height: 50px;
+    width: 175px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+button{
+    font-family: "Exo 2", sans-serif;
+}
+
+#banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('images/little-ginger-cat-play-with-his-toy-from-featherslarge-banner-with-copy-space_511816-2019.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner h1{
+    padding-right: 140px;
+    text-align: end;
+    font-size: 60px;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+.categ{
+    height: auto;
+    width: 100%;
+    padding: 0px 220px;
+}
+
+.cardCont{
+    padding: 20px;
+    margin: 0px 0px;
+    display:grid;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 0px;
+    place-items: center
+}
+
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 280px;
+    height: 460px;
+    border-radius: 25px;
+    -webkit-transition: transform 0.2s;
+}
+
+.cards:hover{
+    transform: scale(1.02) translate(0px, -5px);
+}
+
+.imgCont img{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 280px;
+    height: 187.88px;
+}
+
+.prodName, .prodDesc, .starsCont, .price, .addBut{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodName h3{
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prodName{
+    height: 50px;
+}
+
+.prodDesc{
+    height: 87px;
+    font-size: 13px;
+    padding: 0px 10px;
+}
+
+.prodDesc p{
+    color: rgba(0, 0, 0, 0.613);
+}
+
+.starsLists{
+    height: auto;
+    display: flex;
+    padding: 10px
+}
+
+.starsLists li{
+    padding: 0px 3px;
+}
+
+.price h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addBut{
+    padding: 10px;
+}
+
+.addBut button{
+    display: flex;
+    font-weight: 700;
+    font-size: 15px;
+    color: #5a6c57;;
+    background-color: transparent;
+    border: 2.5px solid #5a6c57;
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+}
+
+.addBut button:hover{
+    background-color: #5a6c57;
+    color: white;
+}
+
+
+.prodCategTitle{
+    font-family: "Exo 2", sans-serif;
+    font-size: 50px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+}
+
+.prodDesc{
+    font-family: "Exo 2", sans-serif;
+}
+
+.prodName{
+    font-family: "Archivo", sans-serif;
+}
+
+button, a, .price h3{
+    font-family: "Exo 2", sans-serif;
+}
+
+.checked{
+    color: #FCC737;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#carting::-webkit-scrollbar{
+    display: none;
+}
+
+#carting{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    width: 500px;
+    background-color: #3e3530;
+    top: 0;
+    position: fixed;
+    inset: 0 0 0 auto;
+    z-index: 9999;
+    display: grid;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 100px;
+}
+
+body.showcart #carting{
+    transform: translateX(100%);
+    inset: 0 -4000px 0 auto;
+}
+
+.itemImg{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.itemz{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9A7E6F;
+    width: 440px;
+    display: flex;
+    height: 100px;
+    border-radius: 25px;
+}
+
+#cartItems {
+    margin-left: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+    height: 700px;
+    padding-left: 7px;
+}
+#priceCont{
+    height: 40px;
+}
+
+#optionButtons{
+    height: 50px;
+}
+
+#cartTitle{
+    background-color: #54473F;
+    height: 90px;
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+#cartTitle h3{
+    color: white;
+}
+
+.itemQuat{
+    background-color: #D6C0B3;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.removeButton{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: #d05656;
+    width: 100px;
+    padding: 0px 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 100px;
+    -webkit-transition: background-color 0.2s, font-size 0.2s;
+}
+
+.infoo{
+    width: 100px;
+    display: flex;
+    height: auto;
+    font-family: "Archivo", sans-serif;
+    flex-direction: column;
+}
+
+.itemTitle{
+    color: white;
+    font-size: -webkit-calc(80% + 3px);
+}
+
+.itemPrice{
+    color: white;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+#priceCont{
+    margin: 0px 0px;
+    display: flex;
+    background-color: #54473F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px 0px 60px;
+}
+
+#priceCont h3{
+    font-family: "Exo 2", sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    color: white;
+}
+
+#optionButtons{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#buyButton, #closeCart{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+
+#buyButton{
+    background-color: #79AC78;
+    -webkit-transition: background-color 0.2s, font-size 0.2s;
+}
+
+#closeCart{
+    background-color: #D8A25E;
+    -webkit-transition: background-color 0.2s, font-size 0.2s;
+}
+
+#fixedCont {
+    width: inherit;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.categButs:hover{
+    background-color: #728933;
+}
+
+#cartBut:hover{
+   transform: scale(1.05);
+}
+
+#buyButton:hover{
+    background-color: #7bc17d;
+    font-size: 22px;
+}
+
+#closeCart:hover{
+    background-color: #e2b379;
+    font-size: 22px;
+}
+
+.removeButton:hover{
+    background-color: #d36565;
+}
+
+.addBut:active{
+    transform: scale(1.02);
+}

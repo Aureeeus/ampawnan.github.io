@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AmPawNan</title>
+        <link rel = "stylesheet" href = "pages.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <div id = "navDiv">
+            <nav id = "navBar">
+                <h2 id = "logo">AM<span class = "empha">PAW</span>NAN</h2>
+                <div id = "optionsDiv">
+                    <ul>
+                        <li><a class = "navOptions" href = "index.html">Home</a></li>
+                        <li><a class = "navOptions" href = "about.html">About us</a></li>
+                        <li><a class = "navOptions" href = "shop.html">Shop</a></li>
+                        <li><a class = "navOptions" href = "pages.html" style = "border: 2px solid #557150;">Donate</a></li>
+                        <li><a class = "navOptions" href = "contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div id = "outer">
+        <div class="container">
+            <div id = "haha"><h1>SUPPORT OUR CAUSE</h1></div>
+            <form action="submit_donation.php" method="POST">
+                <div id = "ivan">
+                <h3>Make a Donation</h3>
+                <p>We are raising funds to provide homes to stray cats. Your contribution can make a significant difference!</p>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+       
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+       
+                <label for="amount">Donation Amount (P):</label>
+                <input type="number" id="amount" name="amount" required min="1">
+                </div>
+                <input type="submit" value = "DONATE NOW!">
+            </form>
+        </div>
+    </div>
+        </body>
+        </html>

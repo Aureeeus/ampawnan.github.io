@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AmPawNan</title>
+        <link rel = "stylesheet" href = "receipt.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <div id = "navDiv">
+            <nav id = "navBar">
+                <h2 id = "logo">AM<span class = "empha">PAW</span>NAN</h2>
+                <div id = "optionsDiv">
+                    <ul>
+                        <li><a class = "navOptions" href = "index.html">Home</a></li>
+                        <li><a class = "navOptions" href = "about.html">About us</a></li>
+                        <li><a class = "navOptions" href = "shop.html"  style = "border: 2px solid #66785F;">Shop</a></li>
+                        <li><a class = "navOptions" href = "pages.html">Donate</a></li>
+                        <li><a class = "navOptions" href = "contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    <center>
+        <div id = "container">
+            <h3>AM<span class = "empha">PAW</span>NAN</h3>
+            <h3 style = "font-size: 20px; letter-spacing: 5px;">OFFICIAL RECEIPT</h3>
+            <div id = "receipt">
+            </div>
+            <div id = "formz">
+                <div id = 'formelem'>
+                    <label for = "payment">Enter your payment: </label>
+                    <input id = "payment" type = "number" min = "0" value = "" placeholder="Enter amount">
+                </div>
+            </div>
+            <div id = total>
+                <div id = "totpay">
+                    <p id = "totText">Total price:</p>
+                    <p id = "totChange">P0.00</p>
+                </div>
+                <div id = "totcha">
+                    <p id = "chaText">Change: </p>
+                    <p id = "chaChange">P0.00</p>
+                </div>
+            </div>
+            <div id = "buton">
+                <button onclick="alert('PRODUCTS PURCHASED!')">PURCHASE</button>
+            </div>
+        </div>
+    </center>
+        <script src = 'receipt.js'></script>
+        </body>
+        </html>

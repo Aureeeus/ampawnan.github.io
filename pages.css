@@ -1,0 +1,204 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+
+/*#mainDiv{
+    background-image: url("images/coverIMG.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+}*/
+
+
+#navBar{
+    width: 100%;
+    height: 90px;
+    background-color: #FAF8F4;
+    padding:0px;
+    border: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo{
+    letter-spacing: 1.5px;
+    padding-right: 70px;
+    padding-left: 50px;
+    font-size: 40px;
+    margin-right: 350px;
+    font-weight: 800;
+    font-family: "Archivo", sans-serif;
+}
+
+
+#cartDiv{
+    padding-right: 45px;
+}
+
+
+#optionsDiv ul{
+    margin-right: 70px;
+    display: flex;
+}
+
+
+.navOptions {
+    border-radius: 30px;
+    color: #5a6c57;
+    font-size: 17px;
+    font-weight: bold;
+    height: 80px;
+    width: 120px;
+    display: inline-flex;
+    margin: 0px 3px;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: color 0.2s, background-color 0.25s ease-in-out;
+}
+
+
+.navOptions:hover{
+    outline: none;
+    color: white;
+    background-color: #5a6c57;
+}
+
+
+.empha{
+    color: #859f3d;
+}
+
+
+button, a, .prodPrice h3{
+    font-family: "Exo 2", sans-serif;
+}
+
+
+body {
+    font-family: "Archivo", sans-serif;
+    background-color: #FAF8F4;
+    margin: 0;
+    padding: 0px;
+}
+header {
+    background-color: #859f3d;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 300px;
+}
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    background: transparent;
+    border-radius: 30px;
+    background-color: white;
+
+}
+   
+p {
+    line-height: 1.6;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#ivan{
+    display: flex;
+    flex-direction: column;
+    padding:20px 50px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    font-family: "Archivo", sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 55px;
+    font-family: "Exo 2", sans-serif;
+    background-color: #859f3d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #859f3d;
+    font-family: "Exo 2", sans-serif;
+}
+
+#haha{
+    border-top-right-radius: 30px ;
+    border-top-left-radius: 30px ;
+    display: flex;
+    justify-content: center;
+    background-color: #859f3d;
+    padding: 10px 0px;
+    border: 0px;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 3px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#outer{
+    display: flex;
+    height: 750px;
+    width: 100%;
+    padding-bottom: 80px;
+}

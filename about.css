@@ -1,0 +1,222 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Navigation Menu */
+#navBar {
+  width: 100%;
+  height: 90px;
+  background-color: #FAF8F4;
+  padding: 0px;
+  border: none;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  letter-spacing: 1.5px;
+  padding-right: 70px;
+  padding-left: 50px;
+  font-size: 40px;
+  margin-right: 350px;
+  font-weight: 800;
+  font-family: "Archivo", sans-serif;
+}
+
+#optionsDiv ul {
+  margin-right: 70px;
+  display: flex;
+}
+
+body{
+  background-color: #FAF8F4;
+}
+
+.navOptions {
+  border-radius: 30px;
+  color: #5a6c57;
+  font-size: 17px;
+  font-weight: bold;
+  height: 80px;
+  width: 120px;
+  display: inline-flex;
+  margin: 0px 3px;
+  padding: 20px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: color 0.2s, background-color 0.25s ease-in-out;
+}
+
+.navOptions:hover {
+  outline: none;
+  color: white;
+  background-color: #5a6c57;
+}
+
+.empha {
+  color: #859f3d;
+}
+
+button,
+a,
+.prodPrice h3 {
+  font-family: "Exo 2", sans-serif;
+}
+
+#aboutSection {
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.info-card {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  height: 300px;
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+.info-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: "Nunito", Helvetica;
+}
+
+.info-card p {
+  font-size: 1em;
+  color: #555;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.info-card:hover p {
+  opacity: 0;
+}
+
+.info-card::after {
+  content: attr(data-full-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  color: #333;
+  opacity: 0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #E9EED9;
+  transition: opacity 0.3s ease;
+  font-family: "Nunito", Helvetica;
+}
+
+.info-card:hover::after {
+  opacity: 1;
+}
+
+#aboutSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #FAF8F4;
+}
+
+.info-card input {
+  display: none;
+}
+
+.info-card label {
+  cursor: pointer;
+  font-size: 16px;
+  color: #4B5945;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+  font-size: 19px;
+  color: #555;
+  transition: max-height 0.1s ease;
+  overflow: hidden;
+  border-top: 2px solid #4B5945;
+  text-align: center;
+  width: 100%;
+}
+
+.info-card input:checked + label + .content {
+  display: block;
+}
+
+.info-card-mission p {
+  font-size: 18px;
+}
+
+.info-card-offer p {
+  font-size: 17px;
+}
+
+.info-card-choose p {
+  font-size: 17px;
+}
+
+.info-card-journey p {
+  font-size: 19px;
+}
+
+.info-card-connected p {
+  font-size: 21px;
+  margin-top: 50px;
+}
+
+.info-card-connected a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.info-card-connected a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: none !important;
+}
+
+#haha{
+  height: 600px;
+  width: 1000px;
+}
+
+#vidcont{
+  display: flex;
+  justify-content: center;
+}

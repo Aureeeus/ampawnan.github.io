@@ -1,0 +1,13 @@
+#logo{
+    letter-spacing: 1.5px;
+    padding-right: 70px;
+    padding-left: 50px;
+    font-size: 200px;
+    margin-right: 350px;
+    font-weight: 800;
+    font-family: "Archivo", sans-serif;
+}
+
+.empha{
+    color: #859f3d;
+}
