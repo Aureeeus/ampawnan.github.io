@@ -42,7 +42,7 @@ buyBut.addEventListener('click', () => {
         console.log(namez[i]);
     }
 
-    window.open('receipt.html', '_blank');
+    window.open('receipt.html', '_self');
     sessionStorage.clear();
 })
 
